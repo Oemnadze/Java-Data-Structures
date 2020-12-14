@@ -1,0 +1,6 @@
+The recursive algorithm finds all subsets of the array with
+size 2 and checks if this subset sums up to k. Because of
+this, the running time of the algorithm should be a number
+of 2-sized subsets of the array of length n, which equals
+to "n choose 2" = n! / (2! * (n - 2)!) = n * (n - 1) / 2 =
+= O(n^2). So the time complexity of this algorithm is O(n^2)
